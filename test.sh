@@ -1,6 +1,6 @@
 #!/bin/bash
 #get Apache log file as a parameter
-DEFAULT_FILE=apache_logs1
+DEFAULT_FILE=apache_logs
 log_file=${1:-$DEFAULT_FILE}
 
 #declare associative array where ip and bytes downloaded will be stored
